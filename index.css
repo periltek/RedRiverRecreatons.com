@@ -1,6 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(51, 44, 41, 0.45), rgba(51, 44, 41, 0.45)), url('images/hiking-men-conquer-mountain-peak-adventure-awaits-generative-ai3-min.jpg');
-  background-position: 50% 50%;
+  background-image: linear-gradient(0deg, rgba(51, 44, 41, 0.45), rgba(51, 44, 41, 0.45)), url('images/TheRedCoverPhotoV2.png');
 }
 
 .u-section-1 .u-sheet-1 {
@@ -65,6 +64,12 @@
   padding: 20px 55px 21px 54px;
 }
 
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+}
+
 @media (max-width: 991px) {
   .u-section-1 .u-text-2 {
     font-size: 4.5rem;
@@ -94,12 +99,12 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1480px;
+  min-height: 558px;
 }
 
 .u-section-2 .u-accordion-1 {
   width: 1140px;
-  margin: 37px auto 60px;
+  margin: 37px auto 26px;
 }
 
 .u-section-2 .u-accordion-item-1 {
@@ -126,7 +131,7 @@
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 20px 30px;
+  padding: 20px 30px 0;
 }
 
 .u-section-2 .u-accordion-item-2 {
@@ -182,10 +187,6 @@
   padding: 20px 30px;
 }
 
-.u-section-2 .u-accordion-item-4 {
-  margin-bottom: 0;
-}
-
 .u-section-2 .u-accordion-link-4 {
   background-image: none;
   font-size: 1.125rem;
@@ -205,28 +206,6 @@
 }
 
 .u-section-2 .u-container-layout-4 {
-  padding: 20px 30px;
-}
-
-.u-section-2 .u-accordion-link-5 {
-  background-image: none;
-  font-size: 1.125rem;
-  font-weight: 600;
-  --radius: 19px;
-  padding: 25px 30px;
-}
-
-.u-section-2 .u-icon-5 {
-  height: 25px;
-  width: 25px;
-  background-image: none;
-}
-
-.u-section-2 .u-accordion-pane-5 {
-  min-height: 150px;
-}
-
-.u-section-2 .u-container-layout-5 {
   padding: 20px 30px;
 }
 
@@ -262,11 +241,6 @@
   }
 
   .u-section-2 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-2 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -687,6 +661,11 @@
   margin: 47px 60px 0;
 }
 
+.u-section-5 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-5 .u-form-1 {
   height: 311px;
   width: 678px;
@@ -739,7 +718,7 @@
   margin-left: auto;
 }
 
-.u-section-5 .u-btn-1 {
+.u-section-5 .u-btn-2 {
   font-size: 1rem;
   margin-left: auto;
   letter-spacing: 1px;
@@ -819,7 +798,7 @@
   font-size: 1.125rem;
   letter-spacing: 3px;
   font-weight: 400;
-  margin: 18px -1px 0 1px;
+  margin: 18px 0 0;
 }
 
 .u-section-6 .u-btn-1 {
@@ -851,7 +830,7 @@
   font-size: 1.125rem;
   letter-spacing: 3px;
   font-weight: 400;
-  margin: 18px -1px 0 1px;
+  margin: 18px 0 0;
 }
 
 .u-section-6 .u-btn-2 {
@@ -883,7 +862,7 @@
   font-size: 1.125rem;
   letter-spacing: 3px;
   font-weight: 400;
-  margin: 18px -1px 0 1px;
+  margin: 18px 0 0;
 }
 
 .u-section-6 .u-btn-3 {
@@ -915,7 +894,7 @@
   font-size: 1.125rem;
   letter-spacing: 3px;
   font-weight: 400;
-  margin: 18px -1px 0 1px;
+  margin: 18px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -927,26 +906,6 @@
 
   .u-section-6 .u-repeater-1 {
     min-height: 214px;
-  }
-
-  .u-section-6 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-6 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-6 .u-text-3 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-6 .u-text-4 {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 

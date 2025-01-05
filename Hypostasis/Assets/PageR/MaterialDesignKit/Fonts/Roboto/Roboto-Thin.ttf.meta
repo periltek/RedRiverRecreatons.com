@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 07726bcc3d5f14ab586a21dd81415dd8
+timeCreated: 1480312278
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 64
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Roboto
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 729e22625163048e39ccd6c1d780b374, type: 3}
+  - {fileID: 12800000, guid: 7eb15ee201fab4089b141f1219437d2f, type: 3}
+  - {fileID: 12800000, guid: ec148c739ce53477eb83c5d73d261aac, type: 3}
+  - {fileID: 12800000, guid: d283ee75a7d6649e1aa4f41106f6f1c4, type: 3}
+  - {fileID: 12800000, guid: 507c1e293a6dd4f119fa7707f7a25527, type: 3}
+  - {fileID: 12800000, guid: 0a7e9199e828d4423a90d684391ba519, type: 3}
+  - {fileID: 12800000, guid: edcbb5eb47e0a46ba893b78ac154571f, type: 3}
+  - {fileID: 12800000, guid: bdac0ceb908c74a4d8d446907eac0a40, type: 3}
+  - {fileID: 12800000, guid: 2c05bf7c98eda4f4d9429907a98d9631, type: 3}
+  - {fileID: 12800000, guid: 6d803a7d3126140fab5c26edd63c6e7f, type: 3}
+  - {fileID: 12800000, guid: e991989ff3b9643018711e86d0d2e7c7, type: 3}
+  - {fileID: 12800000, guid: 6534f2ef3014c4a8598be8671fac2697, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/MaterialDesignKit/Fonts/Roboto/Roboto-Thin.ttf
+  uploadId: 166127

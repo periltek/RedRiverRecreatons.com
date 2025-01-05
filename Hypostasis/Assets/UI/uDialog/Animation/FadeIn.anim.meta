@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5dd6b91ca58f0a84aa883e361771c2e7
+timeCreated: 1455714604
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Animation/FadeIn.anim
+  uploadId: 338605

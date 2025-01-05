@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 18e62688b0e00dd449dd98a7b18fecc2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 204473
+  packageName: Custom Layout Group
+  packageVersion: 1.1
+  assetPath: Assets/Custom Layout Group/Scripts/ShrinkAndExpand.cs
+  uploadId: 528095

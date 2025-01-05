@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca6d76ce1866db14a9b0600c79b7e02c
+timeCreated: 1455714604
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Animation/SlideIn_Top.anim
+  uploadId: 338605

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a37812c202b273943b8d34ae2fe7b479
+timeCreated: 1456842824
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Examples/ExampleNote.cs
+  uploadId: 338605

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b4246f1e6cfee4bb18edf78dc361b495
+timeCreated: 1480624775
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Script/RecoilOnPointerUp.cs
+  uploadId: 166127

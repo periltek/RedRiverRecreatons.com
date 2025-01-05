@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 856cd27d889e4524c989ca5c3abda838
+timeCreated: 1454939860
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Examples/Example Scene/Dialog Examples.unity
+  uploadId: 338605

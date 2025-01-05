@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 79411e31fac1fc9498f9d90757385327
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170899
+  packageName: Ultimate Mobile Quickbar
+  packageVersion: 1.1.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Mobile Quickbar/Editor/UltimateMobileQuickbarButtonInfoPropertyDrawer.cs
+  uploadId: 481823

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65444e9a767dfa049b9b626349eb807d
+timeCreated: 1456745895
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Examples/Audio/Audio sourced from.txt
+  uploadId: 338605

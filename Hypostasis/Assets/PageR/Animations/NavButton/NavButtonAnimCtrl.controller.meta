@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 83883767c26ce4a7da46d7592daaff22
+timeCreated: 1480577804
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Animations/NavButton/NavButtonAnimCtrl.controller
+  uploadId: 166127

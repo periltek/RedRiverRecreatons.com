@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e8399d902fbd3d4ab3600150a4a45dd
+timeCreated: 1457116847
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Documentation/uDialog User Guide - v1.00.pdf
+  uploadId: 338605

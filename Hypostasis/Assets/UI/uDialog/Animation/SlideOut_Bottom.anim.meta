@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ae32b877854d6346abe440eebb320da
+timeCreated: 1455714604
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Animation/SlideOut_Bottom.anim
+  uploadId: 338605

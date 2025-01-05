@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3bb9ace65f03f6e43b1f76cecf4e3fe9
+timeCreated: 1457099746
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Documentation/Change List.txt
+  uploadId: 338605

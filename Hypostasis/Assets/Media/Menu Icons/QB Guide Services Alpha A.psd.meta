@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 6d10afd023719574f94a5da46c0945a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7142116564388250610
+    second: QB Guide Services Alpha A_0
+  - first:
+      213: 1379266322441158655
+    second: QB Guide Services Alpha A_1
+  - first:
+      213: -3116599989825287356
+    second: QB Guide Services Alpha A_2
+  - first:
+      213: 8008810411911933710
+    second: QB Guide Services Alpha A_3
+  - first:
+      213: -561042961868220442
+    second: QB Guide Services Alpha A_4
+  - first:
+      213: 4238718888489311840
+    second: QB Guide Services Alpha A_5
+  - first:
+      213: -9207780794024343866
+    second: QB Guide Services Alpha A_6
+  - first:
+      213: 8238153918973002422
+    second: QB Guide Services Alpha A_7
+  - first:
+      213: -2566286789829784513
+    second: QB Guide Services Alpha A_8
+  - first:
+      213: 6550790229738116297
+    second: QB Guide Services Alpha A_9
+  - first:
+      213: -5426498782123312034
+    second: QB Guide Services Alpha A_10
+  - first:
+      213: -4578390419003175471
+    second: QB Guide Services Alpha A_11
+  - first:
+      213: 1468134459062816440
+    second: QB Guide Services Alpha A_12
+  - first:
+      213: 5336661383101964787
+    second: QB Guide Services Alpha A_13
+  - first:
+      213: -7318355509022008288
+    second: QB Guide Services Alpha A_14
+  - first:
+      213: 8412000499296486122
+    second: QB Guide Services Alpha A_15
+  - first:
+      213: -1660991272428076792
+    second: QB Guide Services Alpha A_16
+  - first:
+      213: 5281126421422130570
+    second: QB Guide Services Alpha A_17
+  - first:
+      213: 1477171340117677180
+    second: QB Guide Services Alpha A_18
+  - first:
+      213: 5087643583061558568
+    second: QB Guide Services Alpha A_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 43
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f38bccbc25ed1360800000000000000
+      internalID: 7142116564388250610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 146
+        width: 458
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffb3cf9963242310800000000000000
+      internalID: 1379266322441158655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 143
+        width: 364
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b4a7b52dc9fb4d0800000000000000
+      internalID: -3116599989825287356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 0
+        width: 61
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fe57b13a2052f60800000000000000
+      internalID: 8008810411911933710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 85
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e79c121666c638f0800000000000000
+      internalID: -561042961868220442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 85
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ed4231f54f2da30800000000000000
+      internalID: 4238718888489311840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 85
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c38a1724673080800000000000000
+      internalID: -9207780794024343866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 86
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2c069775dc35270800000000000000
+      internalID: 8238153918973002422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c0b6ce2c7b26cd0800000000000000
+      internalID: -2566286789829784513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 85
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4d3a1a10519ea50800000000000000
+      internalID: 6550790229738116297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 85
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c3375cb1431b4b0800000000000000
+      internalID: -5426498782123312034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 36
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd8348db2a4670c0800000000000000
+      internalID: -4578390419003175471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 86
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be03f2138cdf5410800000000000000
+      internalID: 1468134459062816440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 86
+        width: 11
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1665ac041af0a40800000000000000
+      internalID: 5336661383101964787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 85
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c58b8507aff6a90800000000000000
+      internalID: -7318355509022008288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 85
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c9faa2ed6db470800000000000000
+      internalID: 8412000499296486122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 85
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80186efec39f2f8e0800000000000000
+      internalID: -1660991272428076792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 18
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85cbcaef745a4940800000000000000
+      internalID: 5281126421422130570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 62
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c741a18e187ff7410800000000000000
+      internalID: 1477171340117677180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QB Guide Services Alpha A_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 60
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8250e2022e0fa9640800000000000000
+      internalID: 5087643583061558568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QB Guide Services Alpha A_0: 7142116564388250610
+      QB Guide Services Alpha A_1: 1379266322441158655
+      QB Guide Services Alpha A_10: -5426498782123312034
+      QB Guide Services Alpha A_11: -4578390419003175471
+      QB Guide Services Alpha A_12: 1468134459062816440
+      QB Guide Services Alpha A_13: 5336661383101964787
+      QB Guide Services Alpha A_14: -7318355509022008288
+      QB Guide Services Alpha A_15: 8412000499296486122
+      QB Guide Services Alpha A_16: -1660991272428076792
+      QB Guide Services Alpha A_17: 5281126421422130570
+      QB Guide Services Alpha A_18: 1477171340117677180
+      QB Guide Services Alpha A_19: 5087643583061558568
+      QB Guide Services Alpha A_2: -3116599989825287356
+      QB Guide Services Alpha A_3: 8008810411911933710
+      QB Guide Services Alpha A_4: -561042961868220442
+      QB Guide Services Alpha A_5: 4238718888489311840
+      QB Guide Services Alpha A_6: -9207780794024343866
+      QB Guide Services Alpha A_7: 8238153918973002422
+      QB Guide Services Alpha A_8: -2566286789829784513
+      QB Guide Services Alpha A_9: 6550790229738116297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 49ed9f85b2ab1b44b97870bd707ecf9e
+timeCreated: 1456141453
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/uDialog_FontSetting.cs
+  uploadId: 338605

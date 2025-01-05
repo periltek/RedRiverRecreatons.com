@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ad2d0403986b44b9496c111a4f272e97
+timeCreated: 1480622548
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Script/AddTorqueAtStart.cs
+  uploadId: 166127

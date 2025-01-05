@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ac074e42d4e039438c6ac5fd56eb72e
+timeCreated: 1456322846
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Resources/Prefabs/uDialog_Menu.prefab
+  uploadId: 338605

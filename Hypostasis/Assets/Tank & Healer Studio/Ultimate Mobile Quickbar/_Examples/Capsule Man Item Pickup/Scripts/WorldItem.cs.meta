@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 14d112687851e1f4a9bf86fbd9702a3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170899
+  packageName: Ultimate Mobile Quickbar
+  packageVersion: 1.1.1
+  assetPath: Assets/Tank & Healer Studio/Ultimate Mobile Quickbar/_Examples/Capsule
+    Man Item Pickup/Scripts/WorldItem.cs
+  uploadId: 481823

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2cfc7579b348e4978980277d7cf30c15
+timeCreated: 1480609255
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Script/ResizeList.cs
+  uploadId: 166127

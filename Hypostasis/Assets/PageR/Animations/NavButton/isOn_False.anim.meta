@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c6eced7e47934ac8af69c500b75884f
+timeCreated: 1480578050
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Animations/NavButton/isOn_False.anim
+  uploadId: 166127

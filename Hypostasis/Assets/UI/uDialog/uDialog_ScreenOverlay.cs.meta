@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cb9e698272c4a994295bc89f9ced4d35
+timeCreated: 1455717529
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/uDialog_ScreenOverlay.cs
+  uploadId: 338605

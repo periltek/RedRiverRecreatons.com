@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: bd398cffc7b14e047bf7921749402520
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1957353070646431346
+    second: Bottom Center Settings_0
+  - first:
+      213: 3992315452766169883
+    second: Bottom Center Settings_1
+  - first:
+      213: -5932281142000374596
+    second: Bottom Center Settings_2
+  - first:
+      213: 2602423248519080291
+    second: Bottom Center Settings_3
+  - first:
+      213: -4098503126540100297
+    second: Bottom Center Settings_4
+  - first:
+      213: 3252773538523036592
+    second: Bottom Center Settings_5
+  - first:
+      213: 7727732850366765037
+    second: Bottom Center Settings_6
+  - first:
+      213: 8140635034123639054
+    second: Bottom Center Settings_7
+  - first:
+      213: 3966410727784850309
+    second: Bottom Center Settings_8
+  - first:
+      213: -7476996243507215212
+    second: Bottom Center Settings_9
+  - first:
+      213: 2115205074667928838
+    second: Bottom Center Settings_10
+  - first:
+      213: 1698427310900902350
+    second: Bottom Center Settings_11
+  - first:
+      213: -1909920417374534954
+    second: Bottom Center Settings_12
+  - first:
+      213: -2024105066637992333
+    second: Bottom Center Settings_13
+  - first:
+      213: 6587348540361976230
+    second: Bottom Center Settings_14
+  - first:
+      213: -9124822021350617459
+    second: Bottom Center Settings_15
+  - first:
+      213: 7952746119510486117
+    second: Bottom Center Settings_16
+  - first:
+      213: 2319820536030583579
+    second: Bottom Center Settings_17
+  - first:
+      213: 7674324714730963973
+    second: Bottom Center Settings_18
+  - first:
+      213: -6233198179463820863
+    second: Bottom Center Settings_19
+  - first:
+      213: 1994553636467244774
+    second: Bottom Center Settings_20
+  - first:
+      213: 120382131660204158
+    second: Bottom Center Settings_21
+  - first:
+      213: 3233960733919322072
+    second: Bottom Center Settings_22
+  - first:
+      213: 4637479663298914992
+    second: Bottom Center Settings_23
+  - first:
+      213: 3636135346487918859
+    second: Bottom Center Settings_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bottom Center Settings_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 247
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e817914b0c516d4e0800000000000000
+      internalID: -1957353070646431346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 246
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b2e6980cd876730800000000000000
+      internalID: 3992315452766169883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 260
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbca15f5bbd4cada0800000000000000
+      internalID: -5932281142000374596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 249
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a233082aad1420800000000000000
+      internalID: 2602423248519080291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 258
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ddfb70f113f17c0800000000000000
+      internalID: -4098503126540100297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 264
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbb472ac4c242d20800000000000000
+      internalID: 3252773538523036592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 258
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de75a39851c6e3b60800000000000000
+      internalID: 7727732850366765037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 247
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e091a0fbe6859f070800000000000000
+      internalID: 8140635034123639054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 256
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5832aeeba858b0730800000000000000
+      internalID: 3966410727784850309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 265
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49482d6088f5c3890800000000000000
+      internalID: -7476996243507215212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 264
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d7faefec7ba5d10800000000000000
+      internalID: 2115205074667928838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 254
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9f11ff3a6029710800000000000000
+      internalID: 1698427310900902350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 245
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d20025ef799e75e0800000000000000
+      internalID: -1909920417374534954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 199
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e59f28a2fe8e3e0800000000000000
+      internalID: -2024105066637992333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 251
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9a6ff9896fa6b50800000000000000
+      internalID: 6587348540361976230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 244
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e0cba87be1e5180800000000000000
+      internalID: -9124822021350617459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 244
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce942d574dd5e60800000000000000
+      internalID: 7952746119510486117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 247
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b52c09c78a13020800000000000000
+      internalID: 2319820536030583579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 247
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044a80faada08a60800000000000000
+      internalID: 7674324714730963973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 245
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9827ad74b3f79a0800000000000000
+      internalID: -6233198179463820863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 245
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eef71bf6f31eab10800000000000000
+      internalID: 1994553636467244774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 226
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7829e239eeaba100800000000000000
+      internalID: 120382131660204158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 240
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df92da372651ec20800000000000000
+      internalID: 3233960733919322072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 238
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baa700fe23ab5040800000000000000
+      internalID: 4637479663298914992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottom Center Settings_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 237
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0187a225d5267230800000000000000
+      internalID: 3636135346487918859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bottom Center Settings_0: -1957353070646431346
+      Bottom Center Settings_1: 3992315452766169883
+      Bottom Center Settings_10: 2115205074667928838
+      Bottom Center Settings_11: 1698427310900902350
+      Bottom Center Settings_12: -1909920417374534954
+      Bottom Center Settings_13: -2024105066637992333
+      Bottom Center Settings_14: 6587348540361976230
+      Bottom Center Settings_15: -9124822021350617459
+      Bottom Center Settings_16: 7952746119510486117
+      Bottom Center Settings_17: 2319820536030583579
+      Bottom Center Settings_18: 7674324714730963973
+      Bottom Center Settings_19: -6233198179463820863
+      Bottom Center Settings_2: -5932281142000374596
+      Bottom Center Settings_20: 1994553636467244774
+      Bottom Center Settings_21: 120382131660204158
+      Bottom Center Settings_22: 3233960733919322072
+      Bottom Center Settings_23: 4637479663298914992
+      Bottom Center Settings_24: 3636135346487918859
+      Bottom Center Settings_3: 2602423248519080291
+      Bottom Center Settings_4: -4098503126540100297
+      Bottom Center Settings_5: 3252773538523036592
+      Bottom Center Settings_6: 7727732850366765037
+      Bottom Center Settings_7: 8140635034123639054
+      Bottom Center Settings_8: 3966410727784850309
+      Bottom Center Settings_9: -7476996243507215212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

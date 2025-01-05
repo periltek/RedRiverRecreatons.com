@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 4715e041659e043a787d5a98f963ea7b
+timeCreated: 1480307455
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Noto Sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/MaterialDesignKit/Fonts/Noto-Sans/NotoSans-BoldItalic.ttf
+  uploadId: 166127

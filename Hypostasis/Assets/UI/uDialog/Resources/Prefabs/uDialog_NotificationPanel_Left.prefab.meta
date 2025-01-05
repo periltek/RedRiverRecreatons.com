@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e01744d8aa1edd3418524895d151c517
+timeCreated: 1456403035
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57454
+  packageName: uDialog
+  packageVersion: 1.11
+  assetPath: Assets/UI/uDialog/Resources/Prefabs/uDialog_NotificationPanel_Left.prefab
+  uploadId: 338605

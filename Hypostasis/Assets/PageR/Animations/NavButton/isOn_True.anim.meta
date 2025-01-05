@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 543ba6a59bab749ddaf9251dfbab46f4
+timeCreated: 1480578040
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Animations/NavButton/isOn_True.anim
+  uploadId: 166127

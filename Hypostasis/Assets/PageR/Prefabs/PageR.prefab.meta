@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5738126d6c1a4ebba26c504600fec94
+timeCreated: 1480741539
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77437
+  packageName: PageR
+  packageVersion: 1.1
+  assetPath: Assets/PageR/Prefabs/PageR.prefab
+  uploadId: 166127

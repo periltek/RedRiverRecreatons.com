@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577bf43264e53a4880f2d29236e4bf7, type: 3}
   m_Name: RedNotice
   m_EditorClassIdentifier: 
-  NoticeCategory: 
-  GitHubRaw: 
+  NoticeCategory: Notices
+  GitHubRaw: https://raw.githubusercontent.com/periltek/RedRiverRecreatons.com/refs/heads/main/Hypostasis/Notices/RedNotice.asset
   Date: 01082025
-  Notices: []
+  Notices:
+  - Title: Test 1/9/2025
+    Date: 
+    Body: Testing this notice service

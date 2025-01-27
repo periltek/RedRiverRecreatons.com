@@ -1,0 +1,27 @@
+{
+    "title": "The Red Local Data",
+    "publicNotices": [],
+    "weatherData": [],
+    "ariels": [],
+    "contacts": [
+        {
+            "name": "Gorge Underground",
+            "Category": 5,
+            "phoneNumber": "(859) 407-5844",
+            "description": "Experience the adventures of kayak beneath the Red, or take it all in during a tour boat ride.",
+            "Address": "2478 Glencarin Rd, Rogers, KY 41365",
+            "gpsCoords": "",
+            "webAddress": "www.gorgeunderground.com",
+            "email": "",
+            "defaultMediaGallery": [],
+            "photos": [],
+            "tags": [],
+            "contactDisplay": {
+                "instanceID": 0
+            },
+            "activityIcons": []
+        }
+    ],
+    "calendarEvents": [],
+    "locationsOfInterest": []
+}

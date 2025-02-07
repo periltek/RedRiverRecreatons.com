@@ -1,0 +1,26 @@
+{
+    "notices": [
+        {
+            "Title": "Title/Topic",
+            "Category": 0,
+            "Summary": "A Test example is provided for testing purposes.",
+            "Address": "The Street Address, & City",
+            "GPS": "X,Y coords",
+            "EffectiveDate": "030320251400",
+            "EndDate": "030320251800",
+            "WebSource": "www.redriverrecreations.com",
+            "issuer": ""
+        },
+        {
+            "Title": "Test 2",
+            "Category": 1,
+            "Summary": "Severe Weather will impact the Red in less than 1 hour.",
+            "Address": "RRG General Area",
+            "GPS": "",
+            "EffectiveDate": "Immediately",
+            "EndDate": "7 PM",
+            "WebSource": "www.RedRiverRecreations.com",
+            "issuer": ""
+        }
+    ]
+}

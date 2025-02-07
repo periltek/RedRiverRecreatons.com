@@ -1,0 +1,22 @@
+{
+    "weatherForecasts": [
+        {
+            "Highlight": "Clear Skies Tonight",
+            "Category": "Clear",
+            "Tags": [
+                ""
+            ],
+            "Summary": "Summary of Things",
+            "HighTemp": "78",
+            "LowTemp": "45",
+            "WaterTemp": "55",
+            "WaterLevel": "+4\"",
+            "Location": "Mills Creek",
+            "GPS": "",
+            "EffectiveDate": "Now",
+            "EndDate": "Later",
+            "WebSource": "www.RedRiverRecreations.com/Forecast",
+            "Issuer": "The Red"
+        }
+    ]
+}

@@ -1,17 +1,5 @@
 {
     "calendarEvents": [
-        {
-            "Title": "",
-            "Category": "",
-            "Location": "",
-            "Description": "",
-            "StartDate": "",
-            "EndDate": "",
-            "Organizer": "",
-            "Tags": [
-                ""
-            ],
-            "WebSource": ""
-        }
+       
     ]
 }

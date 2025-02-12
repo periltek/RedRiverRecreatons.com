@@ -1,14 +1,26 @@
 {
     "pois": [
         {
-            "Name": "",
-            "Category": 0,
+            "Name": "Devils Canyon Overlook",
+            "Category": 13,
             "Description": "",
             "Location": "",
             "GPS": "",
             "OpeningHours": "",
             "ContactInfo": "",
-            "Website": ""
+            "Website": "",
+            "Tags": []
+        },
+        {
+            "Name": "Sky Bridge",
+            "Category": 16,
+            "Description": "",
+            "Location": "",
+            "GPS": "",
+            "OpeningHours": "",
+            "ContactInfo": "",
+            "Website": "",
+            "Tags": []
         }
     ]
 }

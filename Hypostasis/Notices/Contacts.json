@@ -1,16 +1,91 @@
 {
     "contacts": [
         {
-            "Name": "",
-            "PhoneNumber": "",
-            "Email": "",
-            "Address": "",
+            "Category": 1,
+            "Name": "Gorge Underground",
+            "PhoneNumber": "859-407-5844",
+            "Email": "office@gorgeunderground.com",
+            "Address": "2478 Glencairn Rd. Rogers, Kentucky 41365",
             "Organization": "",
             "JobTitle": "",
+            "Website": "https://www.gorgeunderground.com/",
             "Tags": [
                 ""
             ],
-            "Notes": ""
+            "Notes": "",
+            "iconToUse": "",
+            "contactGraphic": ""
+        },
+        {
+            "Category": 1,
+            "Name": "SUP Ky",
+            "PhoneNumber": "(859) 407-5844",
+            "Email": "info@supkentucky.com",
+            "Address": "2478 Glencairn Rd. Rogers, Kentucky 41365",
+            "Organization": "",
+            "JobTitle": "",
+            "Website": "https://supkentucky.com/",
+            "Tags": [
+                ""
+            ],
+            "Notes": "",
+            "iconToUse": "",
+            "contactGraphic": ""
+        },
+        {
+            "Category": 0,
+            "Name": "Natural Bridge Sky Lift",
+            "PhoneNumber": "(606) 663-2922",
+            "Email": "",
+            "Address": "2135 Natural Bridge Rd, Slade, KY 40376",
+            "Organization": "",
+            "JobTitle": "",
+            "Website": "naturalbridgeskyliftandgiftshop.com",
+            "Tags": [
+                "Lift",
+                " GiftShop "
+            ],
+            "Notes": "",
+            "iconToUse": "",
+            "contactGraphic": ""
+        },
+        {
+            "Category": 23,
+            "Name": "Miguel's PIzza",
+            "PhoneNumber": "606) 663-1975",
+            "Email": "",
+            "Address": "1890 Natural Bridge Rd, Slade, KY 40376",
+            "Organization": "",
+            "JobTitle": "",
+            "Website": "www.miguelspizza.com",
+            "Tags": [
+                "Food",
+                " Pizza",
+                " Cuisine",
+                " Dining",
+                " Carry Out",
+                " Rock Climbing"
+            ],
+            "Notes": "",
+            "iconToUse": "",
+            "contactGraphic": ""
+        },
+        {
+            "Category": 24,
+            "Name": "Red River Gorge General Store",
+            "PhoneNumber": "(606) 668-5917",
+            "Email": "",
+            "Address": "1321 Natural Bridge Rd, Slade, KY 40376-9014",
+            "Organization": "",
+            "JobTitle": "",
+            "Website": "redrivergorgegeneralstore.com",
+            "Tags": [
+                "Shopping",
+                " Gift Shop"
+            ],
+            "Notes": "",
+            "iconToUse": "",
+            "contactGraphic": ""
         }
     ]
 }

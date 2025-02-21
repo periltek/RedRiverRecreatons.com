@@ -1,14 +1,25 @@
 {
     "notices": [
         {
-            "Title": "",
-            "Category": 0,
-            "Summary": "",
-            "Address": "",
+            "Title": "Slick Road Conditions",
+            "Category": 2,
+            "Summary": "Expect patches of ice and snow",
+            "Address": "RRG and Surrounding Areas",
             "GPS": "",
-            "EffectiveDate": "",
-            "EndDate": "",
-            "WebSource": "",
+            "EffectiveDate": "2025-02-21 00:00",
+            "EndDate": "2025-02-21 11:00",
+            "WebSource": "www.RedRiverRecreations.com",
+            "issuer": ""
+        },
+        {
+            "Title": "New Rally near the Red",
+            "Category": 4,
+            "Summary": "The American Motor Association has planned an event in Breathitt County, coming in late August",
+            "Address": "Breathitt County",
+            "GPS": "",
+            "EffectiveDate": "2025-08-21 00:00",
+            "EndDate": "2025-08-22 00:00",
+            "WebSource": "www.RedRiverRecreations.com",
             "issuer": ""
         }
     ]

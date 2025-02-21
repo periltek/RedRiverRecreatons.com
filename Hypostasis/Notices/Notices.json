@@ -1,10 +1,17 @@
 {
     "notices": [
         {
+<<<<<<< HEAD
             "Title": "Slick Road Conditions",
             "Category": 2,
             "Summary": "Expect patches of ice and snow",
             "Address": "RRG and Surrounding Areas",
+=======
+            "Title": "Test Title",
+            "Category": 0,
+            "Summary": "",
+            "Address": "",
+>>>>>>> 66c58f5980b1c0af2a343e96b5ae030cc9120ad3
             "GPS": "",
             "EffectiveDate": "2025-02-21 00:00",
             "EndDate": "2025-02-21 11:00",

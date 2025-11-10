@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, Downloads, Android, iOS, Windows, Web" />
+	<meta name="description" content="Download The Red – RRG Mobile for multiple platforms including Android, Windows, and Web. Access beta codes and first season content." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Downloads – The Red RRG Mobile</title>
+
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #eee;
+			font-family: 'Arvo', serif;
+		}
+
+		h2, h3 {
+			color: #fff;
+			font-family: 'Bevan', serif;
+		}
+
+		.download-section {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0,0,0,0.4);
+		}
+
+		.download-item {
+			background: #333;
+			margin-bottom: 12px;
+			padding: 12px;
+			border-radius: 6px;
+			cursor: pointer;
+			transition: background 0.3s;
+		}
+
+			.download-item:hover {
+				background: #444;
+			}
+
+		.download-title {
+			font-weight: bold;
+			color: #ff4444;
+			font-family: 'Bevan', serif;
+		}
+
+		.download-description {
+			color: #ddd;
+			font-size: 0.95em;
+		}
+
+		.download-expanded {
+			display: none;
+			margin-top: 8px;
+			padding: 10px;
+			background: #3a3a3a;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+			color: #fff;
+			font-size: 0.95em;
+		}
+
+			.download-expanded a {
+				color: #ff7777;
+				text-decoration: underline;
+			}
+
+		.beta-form input[type="text"] {
+			padding: 5px;
+			width: 150px;
+			margin-right: 5px;
+			border-radius: 3px;
+			border: 1px solid #555;
+			background: #222;
+			color: #fff;
+		}
+
+		.beta-form button {
+			padding: 5px 10px;
+			cursor: pointer;
+			background: #ff4444;
+			border: none;
+			color: #fff;
+			border-radius: 3px;
+		}
+
+		#sidebar .box, #content .box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0,0,0,0.3);
+			color: #fff;
+		}
+
+		#sidebar .list li a {
+			color: #ff4444;
+			text-decoration: none;
+		}
+
+			#sidebar .list li a:hover {
+				color: #ff7777;
+			}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red - RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li class="active"><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<div class="box">
+					<h2>Download The Red – RRG Mobile</h2>
+					<p>Select your platform below to access the app or view availability. Expand each section for details, links, or beta access.</p>
+				</div>
+
+				<div class="box download-section">
+
+					<!-- Android Beta -->
+					<div class="download-item">
+						<div class="download-title">Android Beta - Early Access APK</div>
+						<div class="download-description" style="display:flex; align-items:center; justify-content:space-between;">
+							<span>Requires beta passkey for early access</span>
+							<input type="text" id="betaCodeInput" placeholder="Enter code" style="margin-left:10px; padding:5px;" />
+							<button onclick="checkBetaCode()" style="margin-left:5px; padding:5px 10px;">Unlock</button>
+						</div>
+						<div class="download-expanded" id="betaDownloadSection" style="display:none; margin-top:10px;">
+							<p><a href="downloads/TheRedBeta.apk" target="_blank">Download Android Beta APK</a></p>
+						</div>
+						<p id="betaError" style="color:red; display:none; margin-top:5px;">Incorrect code. Please try again.</p>
+					</div>
+
+					<!-- Android Public Version -->
+					<div class="download-item" onclick="toggleDownload(this)">
+						<div class="download-title">Android Public Version 1.0</div>
+						<div class="download-description">Available on Google Play Store.</div>
+						<div class="download-expanded">
+							<p>This version is distributed officially via Google Play Store and includes all standard app features and LiveLink updates.</p>
+						</div>
+					</div>
+
+					<!-- iOS Version -->
+					<div class="download-item" onclick="toggleDownload(this)">
+						<div class="download-title">iOS Version</div>
+						<div class="download-description">TestFlight beta available.</div>
+						<div class="download-expanded">
+							<p>iOS version is accessible through TestFlight once the first full build is released. Beta invitations provided periodically.</p>
+						</div>
+					</div>
+
+					<!-- Windows -->
+					<div class="download-item" onclick="toggleDownload(this)">
+						<div class="download-title">Windows Executable</div>
+						<div class="download-description">Download installer directly from GitHub.</div>
+						<div class="download-expanded">
+							<p><a href="https://github.com/username/repo/raw/main/TheRedInstaller.exe" target="_blank">Download Windows Installer</a>. Includes all assets for offline and online use.</p>
+						</div>
+					</div>
+
+					<!-- Mac -->
+					<div class="download-item" onclick="toggleDownload(this)">
+						<div class="download-title">Mac Version</div>
+						<div class="download-description">Planned for future release.</div>
+						<div class="download-expanded">
+							<p>No current download available. Development is ongoing to provide a Mac executable installer.</p>
+						</div>
+					</div>
+
+					<!-- Web -->
+					<div class="download-item" onclick="toggleDownload(this)">
+						<div class="download-title">Web Version</div>
+						<div class="download-description">WebGL playable in-browser.</div>
+						<div class="download-expanded">
+							<p>The WebGL version will be playable directly in your browser once deployed on this site.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About the App</a></li>
+						<li><a href="news.html">News & Updates</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<script>
+		function toggleDownload(element) {
+			const expanded = element.querySelector('.download-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+
+        function checkBetaCode() {
+            const input = document.getElementById('betaCodeInput').value.trim();
+            const correctCode = "EXPLMORE"; // Season 1 passcode
+
+            const downloadSection = document.getElementById('betaDownloadSection');
+            const errorMsg = document.getElementById('betaError');
+
+            if (input === correctCode) {
+                downloadSection.style.display = 'block';
+                errorMsg.style.display = 'none';
+            } else {
+                downloadSection.style.display = 'none';
+                errorMsg.style.display = 'block';
+            }
+        }
+
+
+	</script>
+</body>
+</html>

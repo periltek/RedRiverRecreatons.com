@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, Devlog, Development, Updates, Features, Roadmap" />
+	<meta name="description" content="The Red – RRG Mobile Devlog: Detailed development updates, issue tracking, operational features, and roadmap for the app." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Devlog – The Red RRG Mobile</title>
+
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #ffffff;
+			font-family: 'Arvo', serif;
+		}
+
+		h2, h3 {
+			color: #ffffff;
+			font-family: 'Bevan', serif;
+		}
+
+		/* Devlog Panel Styles */
+		.dev-section {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 8px rgba(0,0,0,0.4);
+		}
+
+		.dev-item {
+			background: #333;
+			margin-bottom: 12px;
+			padding: 10px;
+			border-radius: 6px;
+			cursor: pointer;
+			transition: background 0.3s;
+		}
+
+			.dev-item:hover {
+				background: #444;
+			}
+
+		.dev-title {
+			font-weight: bold;
+			color: #ffffff;
+			font-family: 'Bevan', serif;
+			font-size: 1.05em;
+		}
+
+		.dev-description {
+			color: #ccc;
+			font-size: 0.9em;
+		}
+
+		.dev-expanded {
+			display: none;
+			margin-top: 8px;
+			padding: 10px;
+			background: #3a3a3a;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+			color: #ffffff;
+			font-size: 0.95em;
+		}
+
+		#sidebar .box, #content .box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0,0,0,0.3);
+			color: #ffffff;
+		}
+
+		#sidebar .list li a {
+			color: #ff4444;
+			text-decoration: none;
+		}
+
+			#sidebar .list li a:hover {
+				color: #ff7777;
+			}
+
+		/* Node Timeline */
+		#timeline {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 20px;
+			padding: 10px;
+			background: #222;
+			border-radius: 8px;
+		}
+
+		.timeline-node {
+			width: 100px;
+			height: 100px;
+			background: #333;
+			margin: 10px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-size: 0.85em;
+			cursor: pointer;
+			transition: all 0.2s;
+		}
+
+			.timeline-node:hover {
+				transform: scale(1.1);
+				background: #ff4444;
+			}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red - RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li class="active"><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<h2>Development Log</h2>
+
+				<!-- Operational Features -->
+				<div class="dev-section">
+					<h3>Operational Features</h3>
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Live Bulletin Integration</div>
+						<div class="dev-description">Automated delivery of verified bulletins and alerts.</div>
+						<div class="dev-expanded">
+							<p>Ensures users always see up-to-date information regarding trails, weather, and community alerts without manual updates.</p>
+						</div>
+					</div>
+
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Unified Directory Access</div>
+						<div class="dev-description">Searchable listings for lodging, dining, and employers.</div>
+						<div class="dev-expanded">
+							<p>Directory information is synced via backend services to guarantee accuracy and timeliness.</p>
+						</div>
+					</div>
+
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Gamification Engine</div>
+						<div class="dev-description">Mini-games and achievements encourage engagement.</div>
+						<div class="dev-expanded">
+							<p>Tracks user actions, awards badges, and provides interactive feedback for exploration and engagement.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Scheduled Updates -->
+				<div class="dev-section">
+					<h3>Scheduled Updates</h3>
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Update 1.1</div>
+						<div class="dev-description">Bug fixes and UI improvements.</div>
+						<div class="dev-expanded">
+							<ul>
+								<li>Fixed text display issues on center-screen elements</li>
+								<li>Improved scroll snap interactions</li>
+								<li>Enhanced performance on mobile devices</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Update 1.2</div>
+						<div class="dev-description">New features rollout and analytics integration.</div>
+						<div class="dev-expanded">
+							<ul>
+								<li>Introduced interactive map overlays</li>
+								<li>LiveLink backend analytics dashboard</li>
+								<li>Expanded gamification features</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Issue Tracking -->
+				<div class="dev-section">
+					<h3>Issue Tracking</h3>
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">ID #101 – Mobile Text Glitch</div>
+						<div class="dev-description">Status: Open | Priority: High</div>
+						<div class="dev-expanded">
+							<p>Description: Text fields occasionally display previous entries when empty.</p>
+							<p>Notes: Cleared on center-screen logic pending optimization.</p>
+						</div>
+					</div>
+
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">ID #102 – Scroll Snap Issue</div>
+						<div class="dev-description">Status: In Progress | Priority: Medium</div>
+						<div class="dev-expanded">
+							<p>Description: Scroll snap not registering center focus correctly.</p>
+							<p>Notes: Working on reference system for centered elements and conditional display.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- App Roadmap -->
+				<div class="dev-section">
+					<h3>App Roadmap</h3>
+					<div class="dev-item" onclick="toggleDev(this)">
+						<div class="dev-title">Core Features & Games</div>
+						<div class="dev-description">Comprehensive feature list including mini-games, maps, and community tools.</div>
+						<div class="dev-expanded">
+							<ul>
+								<li>LiveLink Updates</li>
+								<li>Interactive Maps & Overlays</li>
+								<li>Directory Access</li>
+								<li>Gamification: Achievements, Badges, Mini-Games</li>
+								<li>Community Spotlights</li>
+								<li>Data Analytics & Interlinking</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Node-based Timeline -->
+				<div class="dev-section">
+					<h3>Development Timeline</h3>
+					<div id="timeline">
+						<div class="timeline-node" title="Operational Features">Features</div>
+						<div class="timeline-node" title="Scheduled Updates">Updates</div>
+						<div class="timeline-node" title="Issue Tracking">Issues</div>
+						<div class="timeline-node" title="App Roadmap">Roadmap</div>
+						<div class="timeline-node" title="Release 1.0">Release</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+	</div>
+
+	<script>
+		function toggleDev(element) {
+			const expanded = element.querySelector('.dev-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>

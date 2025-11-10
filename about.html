@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, RRG, Red River Gorge App, About the App, Kentucky Trails, Gorge Map" />
+	<meta name="description" content="Learn about The Red – RRG Mobile, its mission, features, and technology behind the Red River Gorge information app." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>About The Red – RRG Mobile</title>
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<!-- Fonts & Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+		}
+
+		h2, h3 {
+			color: #fff;
+		}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+		}
+
+		.highlight-item {
+			cursor: pointer;
+			margin-bottom: 10px;
+			padding: 10px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.2s;
+		}
+
+			.highlight-item:hover {
+				background: #444;
+			}
+
+		.highlight-summary {
+			font-size: 1em;
+			color: #fff;
+		}
+
+			.highlight-summary strong {
+				color: #ff6666;
+			}
+
+		.highlight-expanded {
+			display: none;
+			margin-top: 8px;
+			font-size: 0.95em;
+			color: #ddd;
+			background: #3a3a3a;
+			padding: 10px;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+		}
+
+		#sidebar .box h3 {
+			color: #fff;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+		}
+
+		a {
+			color: #ff4444;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+
+		.app-preview img {
+			width: 270px;
+			height: 270px;
+			border-radius: 8px;
+			box-shadow: 0 0 8px rgba(0,0,0,0.4);
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red - RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<!-- Intro / Layman Section -->
+				<div class="box">
+					<h2>About <strong>The Red</strong></h2>
+					<div class="app-preview" style="text-align:center; margin:15px 0;">
+						<img src="images/Red Ghost Logo.png" alt="The Red – RRG Mobile App Preview" />
+					</div>
+					<p><strong>The Red – RRG Mobile</strong> is your guide to the Red River Gorge, combining verified regional info, maps, directories, and live updates into one accessible app. Explore the Gorge, track activities, and enjoy mini-games designed for both visitors and locals.</p>
+					<p>We make navigating the Gorge easy, safe, and fun. Whether it’s finding the best climbing spots, checking trail updates, or connecting to local businesses, The Red keeps it simple.</p>
+				</div>
+
+				<!-- Mid-Level / Basic Features -->
+				<div class="box">
+					<h3>Core Features</h3>
+					<div id="highlights-panel">
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Update on Demand</strong> — Bulletins, events, and alerts.
+								<div class="highlight-expanded">
+									<p>Receive timely notifications for safety, closures, weather conditions, and community events. All content is verified and updated automatically through LiveLink. Data is downloaded at your request on demand. The type of data depends on the type of info being requested.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Interactive Directories</strong> — Local businesses and services.
+								<div class="highlight-expanded">
+									<p>Access verified listings for lodging, dining, activities, and emergency services. Each listing includes detailed contact info and operational data.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Offline Access</strong> — View maps, contacts, and guides even without connection.
+								<div class="highlight-expanded">
+									<p>Essential app data is cached locally for offline use, ensuring you always have the information you need while in remote areas.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Technical / Dev Language -->
+				<div class="box">
+					<h3>Technical Overview</h3>
+					<div id="tech-panel">
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>LiveLink Integration</strong> — Automated data synchronization.
+								<div class="highlight-expanded">
+									<p>The app pulls structured JSON data from remote endpoints. Updates include location info, contact directories, and event bulletins, all parsed in real-time without user uploads. Offline caching leverages localStorage and IndexedDB for efficiency.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Security & Privacy</strong> — User data safety guaranteed.
+								<div class="highlight-expanded">
+									<p>No personally identifiable information (PII) is collected or transmitted. Data requests are strictly limited to what the device requires to operate the app or display relevant contact/location info. For full details on our privacy practices, please see our <a href="privacy.html">Privacy & Security Policy</a>.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>App Architecture</strong> — Modular & scalable.
+								<div class="highlight-expanded">
+									<p>Built using a component-based design, the app separates UI, LiveLink data ingestion, caching, and presentation logic. Future feature modules (games, interactive tools) can be integrated without altering core functionality.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Disclaimers</strong> — Legal and safety notice.
+								<div class="highlight-expanded">
+									<p>The Red – RRG Mobile and its development team, contributors, and volunteers are not responsible for any damages, accidents, or legal issues arising from the use of this application or the information it provides. Users are encouraged to verify all activities, routes, contacts, and locations with official sources and local authorities before planning visits or making arrangements. Always rely on trusted, official data and resources when exploring the Red River Gorge region or engaging with its services.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Learn More</h3>
+					<ul class="list">
+						<li><a href="projects.html">Development Timeline</a></li>
+						<li><a href="devlog.html">Operational & Scheduled Updates</a></li>
+						<li><a href="downloads.html">Download the App</a></li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li><a href="support.html">Support & Tips</a></li>
+						<li><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+	</div>
+
+	<script>
+		function toggleHighlight(element) {
+			const expanded = element.querySelector('.highlight-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>

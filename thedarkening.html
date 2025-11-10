@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="The Darkening, Periltek, Red River Gorge, Horror, Survival, Game, RRG Mobile, Story, Camp Red" />
+	<meta name="description" content="The Darkening – Horror survival game by Periltek, featuring first-person, point & click, and 2D/2.5D segments set in the Red River Gorge." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>The Darkening – Periltek</title>
+
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+			font-family: 'Arvo', serif;
+			transition: background 1s linear, color 1s linear;
+			position: relative;
+			overflow-x: hidden;
+		}
+
+		h2, h3 {
+			color: #ff4444;
+			font-family: 'Bevan', serif;
+			cursor: pointer;
+			font-weight: 400;
+			font-size: 1.3em;
+			transition: color 1s linear;
+		}
+
+			h2::after, h3::after {
+				content: "";
+				font-size: 0.7em;
+				color: #ff9999;
+				font-weight: 300;
+				margin-left: 5px;
+			}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+			transition: background 1s linear;
+			position: relative;
+			z-index: 2;
+		}
+
+		.project-item {
+			cursor: pointer;
+			margin-bottom: 12px;
+			padding: 12px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.3s;
+		}
+
+			.project-item:hover {
+				background: #444;
+			}
+
+		.project-title {
+			font-weight: normal;
+			color: #fff;
+			font-family: 'Bevan', serif;
+			font-size: 1.05em;
+			transition: color 1s linear;
+		}
+
+		.project-description {
+			color: #ccc;
+			font-size: 0.95em;
+			margin-top: 3px;
+			transition: color 1s linear;
+		}
+
+		.project-expanded {
+			display: none;
+			margin-top: 8px;
+			padding: 10px;
+			background: #3a3a3a;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+			color: #fff;
+			font-size: 0.95em;
+			line-height: 1.5em;
+			transition: background 1s linear, color 1s linear;
+		}
+
+		#sidebar .box h3 {
+			color: #ff4444;
+			transition: color 1s linear;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+			text-decoration: none;
+			transition: color 1s linear;
+		}
+
+			#sidebar .list li a:hover {
+				color: #ff7777;
+			}
+
+		a {
+			color: #ff4444;
+			transition: color 1s linear;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+
+		#dark-silhouette {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/horror-silhouette.png') no-repeat center bottom;
+			background-size: contain;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 600s linear;
+			z-index: 1;
+		}
+
+		@keyframes flicker {
+			0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+				opacity: 1;
+			}
+
+			20%, 24%, 55% {
+				opacity: 0.5;
+			}
+		}
+
+		.flicker {
+			animation: flicker 5s infinite;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red – Periltek</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+
+				<div class="box">
+					<h2>The Darkening – Survival Horror</h2>
+					<p class="flicker">Set in the Red River Gorge, this standalone horror experience combines first-person, point & click, and 2D/2.5D gameplay. Developed by Periltek, the creators of The Red. Each episode can be downloaded individually through a live story system, letting players experience it like a show or anthology, uncovering journals and character backstories from multiple perspectives.</p>
+				</div>
+
+				<!-- Expandable Sections -->
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Core Gameplay Loop</div>
+					<div class="project-description">Explore, prepare, survive, uncover lore.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Explore realistic environments: home, nature, landmarks</li>
+							<li>Prepare for camping trips: inventory, vehicle, campsite</li>
+							<li>Survive "The Darkening" using light mechanics and movement</li>
+							<li>Uncover lore & personal stories through interactive objects and NPCs</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Narrative Structure</div>
+					<div class="project-description">Prologue and episodic story progression.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Prologue: Player prepares for camping in Rockford apartment</li>
+							<li>Visit Bryant’s Outdoor Goods for supplies</li>
+							<li>Level progression with escalating horror events</li>
+							<li>Interactive objects reveal personal & regional lore</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">The Event: "The Darkening"</div>
+					<div class="project-description">Dusk event changes everything.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Wildlife panic, eerie bird calls</li>
+							<li>Radio emergency broadcast, distant screams</li>
+							<li>Darkness spreads like a sentient force</li>
+							<li>Light becomes the only sanctuary</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Light Mechanics</div>
+					<div class="project-description">Sanctuary zones, light bleed, adaptive AI.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Sanctuary Zones: Lighted areas protect the player</li>
+							<li>Light Bleed: Excess light attracts darkness</li>
+							<li>AI Behavior: Stalker, Mimic, Helper, Environmental</li>
+							<li>NPCs may help or betray</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Systems & Mechanics</div>
+					<div class="project-description">Inventory, camp simulation, mobile episodic content.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Inventory & Prep: Items affect survival, limited space & weight</li>
+							<li>Camp Simulator: Tent setup, fire management, cooking, radio use</li>
+							<li>Mobile Version: Episodic content via Unity Addressables, point & click interface</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Lore & Worldbuilding</div>
+					<div class="project-description">Environmental storytelling, immersive history.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Museum of the Red: RRG history & folklore</li>
+							<li>Deep Red Mine: Subterranean mystery</li>
+							<li>Brochures & Radios: Environmental storytelling</li>
+							<li>Apartment Objects: Personal history & emotional grounding</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Art & Atmosphere</div>
+					<div class="project-description">Visual style, sound, immersive UI.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Visuals: Realistic with stylized lighting</li>
+							<li>Sound: Nature ambiance, radio static, distant chaos</li>
+							<li>UI: Minimalist diegetic interfaces (phone, radio, journals)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="box project-item" onclick="toggleProject(this)">
+					<div class="project-title">Release Plan</div>
+					<div class="project-description">Phased rollout across mobile, PC, and console.</div>
+					<div class="project-expanded">
+						<ul>
+							<li>Phase 1: Mobile episodic prequel</li>
+							<li>Phase 2: Full PC release (HD, expanded mechanics)</li>
+							<li>Phase 3: Console adaptation (TBD)</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<div id="dark-silhouette"></div>
+
+	<script>
+		// Expandable sections
+		function toggleProject(element) {
+			const expanded = element.querySelector('.project-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+
+		// Navigation glitch
+		function glitchNav() {
+			const links = document.querySelectorAll('#menu ul li a');
+			links.forEach(link => {
+				if (Math.random() < 0.1) link.style.animation = 'flicker 0.5s';
+				setTimeout(() => link.style.animation = '', 500);
+			});
+		}
+		setInterval(glitchNav, 3000);
+
+		// Slowly fade in silhouette
+		window.addEventListener('load', () => {
+			const silhouette = document.getElementById('dark-silhouette');
+			silhouette.style.opacity = 1;
+		});
+	</script>
+</body>
+</html>

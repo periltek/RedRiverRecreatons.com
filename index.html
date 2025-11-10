@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, RRG, Red River Gorge App, Kentucky Trails, Gorge Map, Red River Gorge Directory" />
+	<meta name="description" content="The Red – RRG Mobile: An informational app providing live data, regional listings, and resource access for the Red River Gorge community." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>The Red – RRG Mobile</title>
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<!-- Fonts & Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+		}
+
+		h2, h3 {
+			color: #fff;
+		}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+		}
+
+		.highlight-item {
+			cursor: pointer;
+			margin-bottom: 10px;
+			padding: 10px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.2s;
+		}
+
+			.highlight-item:hover {
+				background: #444;
+			}
+
+		.highlight-summary {
+			font-size: 1em;
+			color: #fff;
+		}
+
+			.highlight-summary strong {
+				color: #ff6666;
+			}
+
+		.highlight-expanded {
+			display: none;
+			margin-top: 8px;
+			font-size: 0.95em;
+			color: #ddd;
+			background: #3a3a3a;
+			padding: 10px;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+		}
+
+		#sidebar .box h3 {
+			color: #fff;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+		}
+
+		a {
+			color: #ff4444;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+
+		.app-preview img {
+			width: 270px;
+			height: 270px;
+			border-radius: 8px;
+			box-shadow: 0 0 8px rgba(0,0,0,0.4);
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red - RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<div class="box">
+					<h2>Welcome to <strong>The Red</strong></h2>
+					<div class="app-preview" style="text-align:center; margin:15px 0;">
+						<img src="images/Red Ghost Logo.png" alt="The Red – RRG Mobile App Preview" />
+					</div>
+					<p><strong>The Red – RRG Mobile</strong> is the first free, information-driven application dedicated to the <strong>Red River Gorge</strong> region. It delivers verified regional data, digital directories, interactive maps, and live updates.</p>
+					<p>The app gamifies the Gorge experience: explore verified locations, track activities, and enjoy mini-games and pastimes designed for leisure and discovery.</p>
+					<p>Core capabilities include live bulletins, interactive documents, searchable contacts, employer listings, tourism guides, offline access, and reporting tools — all curated for easy navigation and safety.</p>
+				</div>
+
+				<div class="box">
+					<h3>App Highlights</h3>
+					<div id="highlights-panel">
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Streamlined Interface</strong> — Quick access to reliable Gorge-wide information.
+								<div class="highlight-expanded">
+									<p>Navigation is optimized for speed and simplicity across all devices, allowing users to access bulletins, directories, maps, and games efficiently.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Dynamic Updates</strong> — Real-time bulletins for safety, weather, and events.
+								<div class="highlight-expanded">
+									<p>Powered by LiveLink, updates are automated and verified for accuracy, giving users access to the latest trail, road, and community information.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Unified Directory</strong> — Connect to local businesses and tourism resources.
+								<div class="highlight-expanded">
+									<p>Includes verified listings for dining, lodging, activities, and community services, making it simple to plan your visit or daily routine.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="highlight-item" onclick="toggleHighlight(this)">
+							<div class="highlight-summary">
+								<strong>Community Support</strong> — Promoting authentic regional businesses and events.
+								<div class="highlight-expanded">
+									<p>The app spotlights verified local entities, community gatherings, and partnerships that help sustain the Gorge’s economic and environmental ecosystem.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>About the Project</h3>
+					<p><strong>The Red</strong> is part of the <strong>RRG Mobile Initiative</strong> — a digital information project connecting community data, tourism resources, and workforce information for the Red River Gorge region.</p>
+					<ul class="list">
+						<li><a href="about.html">Mission & Purpose</a></li>
+						<li><a href="projects.html">Development Timeline</a></li>
+						<li><a href="support.html">Partnership Opportunities</a></li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<script>
+		function toggleHighlight(element) {
+			const expanded = element.querySelector('.highlight-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>

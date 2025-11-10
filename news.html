@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, News, Updates, Community, Trails, Safety" />
+	<meta name="description" content="The Red – RRG Mobile News Panel providing the latest updates and verified information for the Red River Gorge region." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>News & Updates – The Red RRG Mobile</title>
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<!-- Fonts & Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+			font-family: 'Arvo', serif;
+		}
+
+		h2, h3 {
+			color: #ff4444;
+			font-family: 'Bevan', serif;
+		}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+		}
+
+		.highlight-item {
+			cursor: pointer;
+			margin-bottom: 10px;
+			padding: 10px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.2s;
+		}
+
+			.highlight-item:hover {
+				background: #444;
+			}
+
+		.highlight-summary {
+			font-size: 1em;
+			color: #fff;
+		}
+
+			.highlight-summary strong {
+				color: #ff4444;
+			}
+
+		.highlight-expanded {
+			display: none;
+			margin-top: 8px;
+			font-size: 0.95em;
+			color: #ddd;
+			background: #3a3a3a;
+			padding: 10px;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+		}
+
+		#sidebar .box h3 {
+			color: #ff4444;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+		}
+
+		a {
+			color: #ff4444;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+
+		.news-icon img {
+			width: 50px;
+			height: 50px;
+			border-radius: 6px;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red – RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li class="active"><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<div class="box">
+					<h2>Latest News & Updates</h2>
+					<p>All content in <strong>The Red – RRG Mobile</strong> is updated <strong>on demand</strong>. There are no push notifications. Users may refresh the app or revisit the News section anytime to access verified updates regarding the Red River Gorge region.</p>
+				</div>
+
+				<div class="box" id="highlights-panel">
+
+					<div class="highlight-item" onclick="toggleHighlight(this)">
+						<div class="highlight-summary">
+							<strong>Mobile Development Updates</strong> — Track improvements, bug fixes, and UI enhancements.
+							<div class="highlight-expanded">
+								<p>Updates are deployed through on-demand checks. Users can review the latest fixes, performance optimizations, and interface refinements for the best experience.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="highlight-item" onclick="toggleHighlight(this)">
+						<div class="highlight-summary">
+							<strong>Regional Trail & Recreation Updates</strong> — Verified status of trails, climbing routes, and recreational areas.
+							<div class="highlight-expanded">
+								<p>Information is sourced from LiveLink locations, providing current details without collecting personal data. Users can plan visits or activities based on the most recent verified status.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="highlight-item" onclick="toggleHighlight(this)">
+						<div class="highlight-summary">
+							<strong>Community & Local Business Highlights</strong> — Updates on events, promotions, and local services.
+							<div class="highlight-expanded">
+								<p>Curated updates spotlight verified businesses, community gatherings, and opportunities to support local enterprises.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="highlight-item" onclick="toggleHighlight(this)">
+						<div class="highlight-summary">
+							<strong>Safety & Environmental Notices</strong> — On-demand advisories for safe exploration.
+							<div class="highlight-expanded">
+								<p>While no live alerts are pushed, the app provides verified safety and environmental notes, helping users plan visits safely using reliable sources.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>In the App</h3>
+					<p><strong>The Red – RRG Mobile</strong> provides verified regional data, recreational resources, and community information, all accessible without providing personal information.</p>
+				</div>
+
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<script>
+		function toggleHighlight(element) {
+			const expanded = element.querySelector('.highlight-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>

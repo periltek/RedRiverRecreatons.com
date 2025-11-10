@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, Camp Red, Swift, Games, Virtual Experiences" />
+	<meta name="description" content="The Red – RRG Mobile Game Showcase: Camp Red, Swift, and other upcoming experiences." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Games – The Red RRG Mobile</title>
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<!-- Fonts & Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+			font-family: 'Arvo', serif;
+		}
+
+		h2, h3 {
+			color: #ff4444;
+			font-family: 'Bevan', serif;
+		}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+		}
+
+		.game-item {
+			cursor: pointer;
+			margin-bottom: 12px;
+			padding: 12px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.2s;
+		}
+
+			.game-item:hover {
+				background: #444;
+			}
+
+		.game-title {
+			font-weight: normal;
+			color: #fff;
+			font-family: 'Bevan', serif;
+			font-size: 1.05em;
+		}
+
+		.game-description {
+			color: #ccc;
+			font-size: 0.95em;
+			margin-top: 3px;
+		}
+
+		.game-expanded {
+			display: none;
+			margin-top: 8px;
+			padding: 10px;
+			background: #3a3a3a;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+			color: #fff;
+			font-size: 0.95em;
+		}
+
+		#sidebar .box h3 {
+			color: #ff4444;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+			#sidebar .list li a:hover {
+				color: #ff7777;
+			}
+
+		a {
+			color: #ff4444;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red – RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<div class="box">
+					<h2>Game Showcase</h2>
+					<p>This page highlights upcoming and current games, expansions, and experiences planned for The Red – RRG Mobile.</p>
+				</div>
+
+				<div class="box">
+
+					<div class="game-item" onclick="toggleGame(this)">
+						<div class="game-title">The L&E – Virtual Train Experience</div>
+						<div class="game-description">A virtual train tour through the evolving world of Camp Red.</div>
+						<div class="game-expanded">
+							<p>The L&E allows players to ride across the digital Red River Gorge as it develops in real time. New locations, biomes, and features are revealed as they are created in the cloud, offering both an immersive journey and a live progress preview for supporters.</p>
+						</div>
+					</div>
+
+					<div class="game-item" onclick="toggleGame(this)">
+						<div class="game-title">Camp Red – Camping Simulator</div>
+						<div class="game-description">The foundation for future Red River Gorge projects.</div>
+						<div class="game-expanded">
+							<p>Camp Red serves as the main framework for connected experiences including Swift, Deep Red, Rapid Red, and virtual tours. Players can build campsites, gather resources, craft tools, and explore a living, evolving world. This AAA-scale sandbox emphasizes realism, relaxation, and discovery.</p>
+						</div>
+					</div>
+
+					<div class="game-item" onclick="toggleGame(this)">
+						<div class="game-title">Swift – Story Campaign</div>
+						<div class="game-description">Expands Camp Red with a fully story-driven campaign and team play.</div>
+						<div class="game-expanded">
+							<p>Swift introduces a story-driven adventure about treasure hunters seeking John Swift's lost silver in the Appalachian wilds. Features include handcrafted environments, story locations, metal detection, excavation mechanics, and advanced survival tools. Each update expands the legend with mysteries and moral choices.</p>
+						</div>
+					</div>
+					<div class="game-item" onclick="toggleGame(this)">
+						<div class="game-title">The Darkening – Standalone Horror Experience</div>
+						<div class="game-description">Set in the Red River Gorge, this horror title from Periltek combines first-person, point & click, and 2D/2.5D gameplay.</div>
+						<div class="game-expanded">
+							<p><strong>Overview:</strong> Explore the RRG in a suspenseful survival horror story. The game features a fully immersive world where darkness is a tangible threat. Episodes are released via a live story system, allowing players to download and experience the narrative piece by piece, like a serialized anthology.</p>
+							<p><strong>Gameplay:</strong> Players must survive using light-based mechanics, manage inventory and campsite, and navigate the episodic story. The mobile version lets you play as the author leaving journals behind, which the PC version discovers, creating interconnected storytelling.</p>
+							<p><strong>Characters & Lore:</strong> Interact with NPCs of uncertain allegiance. Discover journals, radios, and environmental storytelling that reveal backstories and local myths. Some characters may only exist through found notes or cryptic clues.</p>
+							<p><strong>Art & Atmosphere:</strong> Dark, atmospheric visuals with realistic and stylized lighting. Sound design enhances tension with nature ambiance, distant chaos, and radio static. UI is minimal and diegetic, immersing players in the world.</p>
+							<p><strong>Release Plan:</strong> Episodic mobile prequel (Unity Addressables) first, followed by full HD PC release and potential console adaptation.</p>
+							<p><a href="thedarkening.html">View full page for The Darkening</a></p>
+						</div>
+					</div>
+
+					<!-- Placeholder for future games -->
+					<div class="game-item" onclick="toggleGame(this)">
+						<div class="game-title">Future Game/Expansion Placeholder</div>
+						<div class="game-description">Details coming soon.</div>
+						<div class="game-expanded">
+							<p>This section is a placeholder for upcoming games or expansions. Text and visuals will be added as Game Design Documents are finalized.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<script>
+		function toggleGame(element) {
+			const expanded = element.querySelector('.game-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>

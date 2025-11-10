@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="keywords" content="Red River Gorge, The Red, RRG Mobile, Projects, Development, LiveLink, Maps, Gamification" />
+	<meta name="description" content="The Red – RRG Mobile Projects page highlighting ongoing and upcoming initiatives, features, and integrations." />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Projects – The Red RRG Mobile</title>
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="images/Red Ghost Logo.png" />
+	<link rel="shortcut icon" type="image/png" href="images/Red Mobile LG.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/Red Ghost Logo.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/Red Ghost Logo.png" />
+
+	<!-- Fonts & Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Bevan&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style>
+		body {
+			background: #1a1a1a;
+			color: #fff;
+			font-family: 'Arvo', serif;
+		}
+
+		h2, h3 {
+			color: #ff4444;
+			font-family: 'Bevan', serif;
+		}
+
+		.box {
+			background: #2a2a2a;
+			padding: 15px;
+			margin-bottom: 15px;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+		}
+
+		.project-item {
+			cursor: pointer;
+			margin-bottom: 12px;
+			padding: 12px;
+			background: #333;
+			border-radius: 6px;
+			transition: background 0.2s;
+		}
+
+			.project-item:hover {
+				background: #444;
+			}
+
+		.project-title {
+			font-weight: normal; /* reduced bold */
+			color: #fff;
+			font-family: 'Bevan', serif;
+			font-size: 1.05em;
+		}
+
+		.project-description {
+			color: #ccc;
+			font-size: 0.95em;
+			margin-top: 3px;
+		}
+
+		.project-expanded {
+			display: none;
+			margin-top: 8px;
+			padding: 10px;
+			background: #3a3a3a;
+			border-left: 3px solid #ff4444;
+			border-radius: 4px;
+			color: #fff;
+			font-size: 0.95em;
+		}
+
+		#sidebar .box h3 {
+			color: #ff4444;
+		}
+
+		#sidebar .list li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+			#sidebar .list li a:hover {
+				color: #ff7777;
+			}
+
+		a {
+			color: #ff4444;
+		}
+
+			a:hover {
+				color: #ff7777;
+			}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html" style="font-family:'Bevan', serif; font-weight:400;">The Red – RRG Mobile</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About the App</a></li>
+					<li><a href="news.html">News & Updates</a></li>
+					<li class="active"><a href="projects.html">Projects</a></li>
+					<li><a href="devlog.html">Devlog</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li class="last"><a href="support.html">Support</a></li>
+				</ul><br class="clearfix" />
+			</div>
+		</div>
+
+		<div id="page">
+			<div id="content">
+				<div class="box">
+					<h2>Ongoing and Upcoming Projects</h2>
+					<p>The Red – RRG Mobile is continuously expanding. Here are the core initiatives shaping the app's future:</p>
+				</div>
+
+				<div class="box">
+
+					<div class="project-item" onclick="toggleProject(this)">
+						<div class="project-title">LiveLink Integration</div>
+						<div class="project-description">Enhancing real-time data delivery across the Red River Gorge region.</div>
+						<div class="project-expanded">
+							<p>LiveLink allows verified updates from community resources, trail managers, and local organizations to be reflected directly in the app. This ensures users always have access to current trail, road, and recreational information without needing to upload personal data.</p>
+						</div>
+					</div>
+
+					<div class="project-item" onclick="toggleProject(this)">
+						<div class="project-title">Interactive Maps</div>
+						<div class="project-description">Layered visual guides for trails, points of interest, and regional data.</div>
+						<div class="project-expanded">
+							<p>Maps are designed to provide both offline and online navigation, allowing users to explore the Gorge with layers highlighting trails, climbing areas, tourism spots, and other points of interest.</p>
+						</div>
+					</div>
+
+					<div class="project-item" onclick="toggleProject(this)">
+						<div class="project-title">Gamification Features</div>
+						<div class="project-description">Encouraging exploration through interactive mini-games and achievements.</div>
+						<div class="project-expanded">
+							<p>Users earn badges, unlock achievements, and participate in interactive mini-games designed to reward exploration, promote learning about the area, and engage the community.</p>
+						</div>
+					</div>
+
+					<div class="project-item" onclick="toggleProject(this)">
+						<div class="project-title">Community & Business Spotlight</div>
+						<div class="project-description">Highlighting verified local organizations and events.</div>
+						<div class="project-expanded">
+							<p>This feature promotes authentic businesses, local events, and community gatherings. It provides visibility for regional partners while helping users discover reliable services and attractions.</p>
+						</div>
+					</div>
+
+					<div class="project-item" onclick="toggleProject(this)">
+						<div class="project-title">Data Interlinking & Analytics</div>
+						<div class="project-description">Improving data accuracy and user insights through backend analytics.</div>
+						<div class="project-expanded">
+							<p>Backend analytics interlink data from LiveLink, maps, and user interaction patterns (without collecting personal information) to optimize app performance, highlight trends, and ensure data reliability.</p>
+						</div>
+					</div>
+
+					<div class="project-item" onclick="window.location.href='game.html'">
+						<div class="project-title">Games & Interactive Experiences</div>
+						<div class="project-description">Explore Camp Red, Swift, and other interactive adventures planned for The Red – RRG Mobile.</div>
+						<div class="project-expanded">
+							<p>Visit the <a href="game.html">Games page</a> to see current and upcoming games, expansions, and interactive experiences. Each game will provide immersive features, story-driven content, and engaging mechanics for exploration and team play.</p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="box">
+					<h3>Resources</h3>
+					<ul class="list">
+						<li class="first"><a href="downloads.html">Download The Red App</a></li>
+						<li><a href="support.html">Support Center</a></li>
+						<li class="last"><a href="privacy.html">Privacy & Security Policy</a></li>
+					</ul>
+				</div>
+			</div><br class="clearfix" />
+		</div>
+
+		<div id="footer">
+			&copy; 2025 The Red – RRG Mobile | Re-Designed for The App | Original Template Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>
+		</div>
+
+	</div>
+
+	<script>
+		function toggleProject(element) {
+			const expanded = element.querySelector('.project-expanded');
+			expanded.style.display = (expanded.style.display === 'block') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>
